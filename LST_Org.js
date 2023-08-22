@@ -1,0 +1,10 @@
+graph TD
+    A[CEO] --> B[VP Sales]
+    A --> [CEO]
+    A --> D[VP Operations]
+    B --> E[Sales Manager]
+    B --> F[Sales Team]
+    C --> G[Marketing Manager]
+    C --> H[Marketing Team]
+    D --> I[Operations Manager]
+    D --> J[Operations Team]
