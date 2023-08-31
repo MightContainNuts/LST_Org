@@ -2,9 +2,13 @@
 
 
 graph LR
-    CEO[CEO] --> CTO[CTO]
-    CEO --> CFO[CFO]
-    CTO --> VP1[VP Engineering]
+    CEO[CEO: Neil] --> CTO[CTO: Dean]
+    CEO --> CFO[CFO: Gillian]
+    CEO --> COO[COO: Callum]
+
+    CTO --> FE1[FE2: Gavin]
+    CTO --> FE2[FE2: Dinesh]
+
     CTO --> VP2[VP Product]
     CFO --> VP3[VP Finance]
     VP1 --> EngMgr1[Engineering Manager]
