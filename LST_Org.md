@@ -1,7 +1,7 @@
-'''mermaid
-
-sequenceDiagram
-    participant Alice
-    participant Bob
-    Alice->>Bob: Hi Bob
-    Bob->>Alice: Hi Alice
+```mermaid
+graph LR
+    A[Start] --> B[Process]
+    B --> C[Decision]
+    C -->|Yes| D[End]
+    C -->|No| E[Process]
+    E --> B
