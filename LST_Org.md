@@ -1,7 +1,5 @@
 ```mermaid
----
-title: Org Chart Lifescience Technology
----
+
 
 graph LR
     CEO[CEO] --> CTO[CTO]
