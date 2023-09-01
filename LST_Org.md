@@ -19,7 +19,13 @@ graph LR
     CEO --> CFO[CFO: Gillian ]
     CEO --> COO[COO: Callum ]
 
-    CTO --> FE1[FE2: Gavin ]
-    CTO --> FE2[FE2: Dinesh ]
-    CTO --> FE3[FE3: t.b.d ]
-    CTO --> FE4[FE4: t.b.d ]
+    
+    CTO --> Team1_Lead[Team1_Lead: Gavin ]
+    Team1_Lead --> T1FE1[T1FE1: Dinesh ]
+    Team1_Lead --> T1FE2[T1FE2: t.b.d ]
+    Team1_Lead --> T1FE3[T1FE3: t.b.d ]
+
+    CTO --> Team2_Lead[Team2_Lead: t.b.d ]
+    Team2_Lead --> T2FE1[T2FE1: t.b.d ]
+    Team2_Lead --> T2FE2[T2FE2: t.b.d ]
+    Team2_Lead --> T2FE3[T2FE3: t.b.d ]
